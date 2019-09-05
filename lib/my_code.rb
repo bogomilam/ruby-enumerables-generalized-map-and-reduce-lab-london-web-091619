@@ -3,7 +3,7 @@ def my_own_map(array)
   i = 0
   
   while i < array.length 
-  new.push(yield(array))
+  new.push(yield(array[i]))
   
   end
 end
